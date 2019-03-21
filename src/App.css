@@ -1,4 +1,4 @@
-.App {
+.Heading {
   text-align: center;
 }
 
@@ -30,4 +30,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bucket, .NotAcquired, .Acquired{
+  border-color: black;
+  border: 5px;
+  border-style: solid;
+  padding: 10px;
+  margin-right: 300px;
+}
+
+.Acquired{
+  background-color: green;
+  text-decoration: line-through;
+}
+
+.NotAcquired{
+  background-color: red;
 }
